@@ -8,16 +8,24 @@
 
 Launch the world and gmapping package.
 
-```roslaunch pursuit_evasion robot_mapping.launch```
+```bash
+roslaunch pursuit_evasion robot_mapping.launch
+```
 
 To drive autonomously with Turtlebot3 to map (not suggested)
 
-```roslaunch turtlebot3_gazebo turtlebot3_simulation.launch```
+```bash
+roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
+```
 
 Using teleop to move around and create map.
 
-```roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch```
+```bash
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
 
 Saving the created map
 
-```rosrun map_server map_saver -f ~/map```
+```bash
+rosrun map_server map_saver -f ~/map
+```
